@@ -16,6 +16,15 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+
+# start express app
+ node interpreter: Installation directory of node
+ working dir: current project working dir
+ webstorm add configuration
+ javascript files: ./server/bin/www
+ add env variables:
+  NODE_CONFIG_DIR=./server/node-config
+ run configuration
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

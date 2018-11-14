@@ -946,3 +946,9 @@
 [2018-11-14T16:52:47.090] [INFO] base - from query or body [name: id]
 [2018-11-14T16:52:47.092] [INFO] topic - describeTopic [uri: https://cnodejs.org/api/v1/topic/5bead9e92fed25406c25e3ce]
 [2018-11-14T16:52:47.465] [INFO] app - GET /api/topic/describeTopic?id=5bead9e92fed25406c25e3ce
+[2018-11-14T16:54:50.441] [INFO] base - from query or body [name: page]
+[2018-11-14T16:54:50.442] [INFO] base - from query or body [name: limit]
+[2018-11-14T16:54:50.442] [INFO] base - from query or body [name: tab]
+[2018-11-14T16:54:50.442] [INFO] base - from query or body [name: mdrender]
+[2018-11-14T16:54:50.442] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-14T16:54:51.433] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
