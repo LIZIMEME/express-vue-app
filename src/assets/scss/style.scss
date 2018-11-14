@@ -1,0 +1,10 @@
+@import "base.scss";
+@import "foundation-sites/dist/css/foundation.css";
+.nav-header{
+  height: 80px;
+  background: $green;
+  color: $white;
+  line-height: 80px;
+  font-size: 2rem;
+  padding-left: 10px;
+}

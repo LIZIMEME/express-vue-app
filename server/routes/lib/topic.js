@@ -14,3 +14,8 @@ exports.describeTopics = function(req,page,limit,tab,mdrender,callback){
     logger.info(util.format('describeTopics [uri: %s]'),uri)
     requestOpenApi(req,uri,'GET',null,null,callback)
 }
+exports.describeTopic = function(req,id,callback){
+  var uri = util.format('%s/api/v1/topic/%s', openApi_cnode,id)
+  logger.info(util.format('describeTopic [uri: %s]'),uri)
+  requestOpenApi(req,uri,'GET',null,null,callback)
+}

@@ -55,6 +55,15 @@ function responseOpenApiJson(cb,formatter){
         cb(null, result)
     }
 }
+function responseWrapper(data) {
+  //中文转换
+  // if (null != data && "" != data && typeof(data) == "object") {
+  //   toChinese(data);
+  // }
+
+  return {result: data, code: 200}
+}
 exports.fromQueryOrBody = fromQueryOrBody
 exports.responseOpenApiJson = responseOpenApiJson
+exports.responseWrapper = responseWrapper
 
