@@ -1,0 +1,156 @@
+[2018-11-13T19:43:31.292] [ERROR] app - app development error handler [err: TypeError: fromQueryOrBody is not a function
+    at E:\nodeZone\express\express-app\server\routes\openApi\topic.js:12:14
+    at Layer.handle [as handle_request] (E:\nodeZone\express\express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\nodeZone\express\express-app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\nodeZone\express\express-app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\nodeZone\express\express-app\node_modules\express\lib\router\layer.js:95:5)
+    at E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:47:12)]
+[2018-11-13T19:43:31.305] [INFO] app - GET /api/topic/describeTopics
+[2018-11-13T19:45:16.111] [INFO] base - from query or body [name: page]
+[2018-11-13T19:45:16.119] [ERROR] app - app development error handler [err: ReferenceError: parmVal is not defined
+    at fromQueryOrBody (E:\nodeZone\express\express-app\server\routes\utils\base.js:13:25)
+    at E:\nodeZone\express\express-app\server\routes\openApi\topic.js:12:14
+    at Layer.handle [as handle_request] (E:\nodeZone\express\express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\nodeZone\express\express-app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\nodeZone\express\express-app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\nodeZone\express\express-app\node_modules\express\lib\router\layer.js:95:5)
+    at E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:174:3)]
+[2018-11-13T19:45:16.127] [INFO] app - GET /api/topic/describeTopics
+[2018-11-13T19:46:15.046] [INFO] base - from query or body [name: page]
+[2018-11-13T19:46:15.056] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:46:15.057] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:46:15.057] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:46:15.058] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1?page=undefined&limit=undefined&tab=undefined&mdrender=undefined]
+[2018-11-13T19:46:15.062] [ERROR] app - app development error handler [err: ReferenceError: headers is not defined
+    at exports.requestOpenApi (E:\nodeZone\express\express-app\server\routes\utils\request.js:30:5)
+    at Object.exports.describeTopics (E:\nodeZone\express\express-app\server\routes\lib\topic.js:15:5)
+    at E:\nodeZone\express\express-app\server\routes\openApi\topic.js:17:12
+    at Layer.handle [as handle_request] (E:\nodeZone\express\express-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\nodeZone\express\express-app\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\nodeZone\express\express-app\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\nodeZone\express\express-app\node_modules\express\lib\router\layer.js:95:5)
+    at E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\nodeZone\express\express-app\node_modules\express\lib\router\index.js:275:10)]
+[2018-11-13T19:46:15.070] [INFO] app - GET /api/topic/describeTopics
+[2018-11-13T19:46:43.172] [INFO] base - from query or body [name: page]
+[2018-11-13T19:46:43.174] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:46:43.174] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:46:43.174] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:46:43.175] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1?page=undefined&limit=undefined&tab=undefined&mdrender=undefined]
+[2018-11-13T19:46:43.749] [INFO] app - GET /api/topic/describeTopics
+[2018-11-13T19:47:44.981] [INFO] base - from query or body [name: page]
+[2018-11-13T19:47:44.983] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:47:44.983] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:47:44.983] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:47:44.984] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=undefined&limit=undefined&tab=undefined&mdrender=undefined]
+[2018-11-13T19:47:45.656] [INFO] app - GET /api/topic/describeTopics
+[2018-11-13T19:49:53.414] [INFO] base - from query or body [name: page]
+[2018-11-13T19:49:53.415] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:49:53.415] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:49:53.415] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:49:53.415] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=undefined&limit=undefined&tab=undefined&mdrender=undefined]
+[2018-11-13T19:49:53.850] [INFO] app - GET /api/topic/describeTopics
+[2018-11-13T19:50:45.679] [INFO] base - from query or body [name: page]
+[2018-11-13T19:50:45.679] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:50:45.679] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:50:45.679] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:50:45.679] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=undefined&mdrender=false]
+[2018-11-13T19:50:46.104] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&mdrender=false&tab=
+[2018-11-13T19:50:51.895] [INFO] base - from query or body [name: page]
+[2018-11-13T19:50:51.895] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:50:51.896] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:50:51.896] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:50:51.896] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=undefined&mdrender=false]
+[2018-11-13T19:50:52.322] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&mdrender=false&tab=
+[2018-11-13T19:52:03.765] [INFO] base - from query or body [name: page]
+[2018-11-13T19:52:03.765] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:52:03.765] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:52:03.766] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:52:03.766] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask &mdrender=false]
+[2018-11-13T19:52:04.265] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&mdrender=false&tab=ask%20
+[2018-11-13T19:52:14.793] [INFO] base - from query or body [name: page]
+[2018-11-13T19:52:14.793] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:52:14.795] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:52:14.795] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:52:14.795] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask &mdrender=undefined]
+[2018-11-13T19:52:15.240] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask%20
+[2018-11-13T19:52:20.235] [INFO] base - from query or body [name: page]
+[2018-11-13T19:52:20.235] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:52:20.235] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:52:20.236] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:52:20.236] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=undefined]
+[2018-11-13T19:52:20.597] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask
+[2018-11-13T19:54:04.481] [INFO] base - from query or body [name: page]
+[2018-11-13T19:54:04.482] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:54:04.482] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:54:04.482] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:54:04.482] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:54:05.005] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:55:18.614] [INFO] base - from query or body [name: page]
+[2018-11-13T19:55:18.614] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:55:18.614] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:55:18.614] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:55:18.614] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:55:19.010] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:57:35.847] [INFO] base - from query or body [name: page]
+[2018-11-13T19:57:35.852] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:57:35.852] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:57:35.852] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:57:35.852] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:57:36.394] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:57:47.423] [INFO] base - from query or body [name: page]
+[2018-11-13T19:57:47.423] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:57:47.424] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:57:47.424] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:57:47.424] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:57:47.801] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:58:02.769] [INFO] base - from query or body [name: page]
+[2018-11-13T19:58:02.769] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:58:02.770] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:58:02.770] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:58:02.770] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:58:03.167] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:58:09.349] [INFO] base - from query or body [name: page]
+[2018-11-13T19:58:09.349] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:58:09.349] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:58:09.349] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:58:09.349] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:58:09.722] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:58:54.634] [INFO] base - from query or body [name: page]
+[2018-11-13T19:58:54.634] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:58:54.634] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:58:54.634] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:58:54.634] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:58:54.979] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:59:17.537] [INFO] base - from query or body [name: page]
+[2018-11-13T19:59:17.538] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:59:17.538] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:59:17.538] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:59:17.538] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:59:17.974] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:59:22.975] [INFO] base - from query or body [name: page]
+[2018-11-13T19:59:22.975] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:59:22.975] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:59:22.975] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:59:22.975] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:59:23.338] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T19:59:33.447] [INFO] base - from query or body [name: page]
+[2018-11-13T19:59:33.447] [INFO] base - from query or body [name: limit]
+[2018-11-13T19:59:33.447] [INFO] base - from query or body [name: tab]
+[2018-11-13T19:59:33.447] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T19:59:33.447] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T19:59:33.808] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true
+[2018-11-13T20:00:03.379] [INFO] base - from query or body [name: page]
+[2018-11-13T20:00:03.379] [INFO] base - from query or body [name: limit]
+[2018-11-13T20:00:03.379] [INFO] base - from query or body [name: tab]
+[2018-11-13T20:00:03.380] [INFO] base - from query or body [name: mdrender]
+[2018-11-13T20:00:03.380] [INFO] topic - describeTopics [uri: https://cnodejs.org/api/v1/topics?page=1&limit=10&tab=ask&mdrender=true]
+[2018-11-13T20:00:03.801] [INFO] app - GET /api/topic/describeTopics?page=1&limit=10&tab=ask&mdrender=true

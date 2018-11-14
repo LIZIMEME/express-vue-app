@@ -1,0 +1,5 @@
+[2018-11-13T15:43:00.988] [DEBUG] cheese - Got cheese.
+[2018-11-13T15:43:00.991] [INFO] cheese - Cheese is Comté.
+[2018-11-13T15:43:00.991] [WARN] cheese - Cheese is quite smelly.
+[2018-11-13T15:43:00.992] [ERROR] cheese - Cheese is too ripe!
+[2018-11-13T15:43:00.992] [FATAL] cheese - Cheese was breeding ground for listeria.
